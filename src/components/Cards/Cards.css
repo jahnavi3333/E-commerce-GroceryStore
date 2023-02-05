@@ -1,0 +1,36 @@
+.cards-container{
+    display: flex;
+    flex-wrap:wrap;
+}
+.card-container{
+    display:flex;
+    flex-direction:column;
+    min-height:300px;
+    max-height:250px;
+    margin:1%;
+    border-radius:5%;
+    background-color:aliceblue;
+    cursor: pointer;
+    box-shadow:0 0 2rem 0 rgb(33 37 41 / 10%);
+}
+
+.image-container{
+    height:80%;
+    width:100%;
+}
+.image-container img{
+    width:50%;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    margin-left:25%
+}
+.detail-container{
+    display:flex;
+    justify-content: space-between;
+    margin: 0% 2%;
+}
+.button-container{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
